@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Mạnh Trí Food </title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <section class="header">
+
+      <a href="#" class="logo"> <i class="fas fa-utensils"></i>Mạnh Trí Food </a>
+
+      <nav class="navbar">
+         <a href="#home">Trang chủ</a>
+         <a href="#about">Thông tin</a>
+         <a href="#food">Món ăn</a>
+         <a href="#menu-order">Thực đơn</a>
+         <a id="cart-btn" class="fas fa-shopping-cart"> <span class="final">0</span><sup>K</sup></a>
+      </nav>
+      <div id="login-btn">
+         <button class="btn">Đăng Nhập</button>
+         <i class="far fa-user"></i>
+      </div>
+      <div id="menu-btn" class="fas fa-bars"></div>
+   </section>
+   <div class="login-form-container">
+      <span id="close-login-form" class="fas fa-times"></span>
+      <form action="">
+         <h3>Đăng Nhập</h3>
+         <input type="email" placeholder="Địa chỉ Email" class="box">
+         <input type="password" placeholder="Mật Khẩu" class="box">
+         <p> Quên mật khẩu? <a href="#">Bấm vào đây!</a> </p>
+         <input type="submit" value="login" class="btn">
+         <p>Đăng nhập với</p>
+         <div class="buttons">
+            <a href="#" class="btn"> Google </a>
+            <a href="#" class="btn"> Facebook </a>
+         </div>
+         <p>Bạn chưa có tài khoản? <a href="#">Tạo một cái mới!</a> </p>
+      </form>
+   </div>
+   <section class="home" id="home" >
+      <img src="images/home-slide-3.jpg" alt="">
+   </section>
+   <section class="about" id="about">
+
+      <div class="image">
+         <img src="images/about-img.png" alt="">
+      </div>
+
+      <div class="content">
+         <h3 class="title">Chào mừng đến với nhà hàng đặt đồ ăn nhanh</h3>
+         <p>Thời gian phục vụ: <br>
+            Sáng: 5AM-9AM Trưa-Chiều: 10AM-2PM Tối: 3PM-11PM</p>
+         <a href="#" class="btn">Xem thêm</a>
+         <div class="icons-container">
+            <div class="icons">
+               <img src="images/about-icon-1.png" alt="">
+               <h3>Món ăn chất lượng</h3>
+            </div>
+            <div class="icons">
+               <img src="images/about-icon-2.png" alt="">
+               <h3>Món ăn & Nước uống</h3>
+            </div>
+            <div class="icons">
+               <img src="images/about-icon-3.png" alt="">
+               <h3>Đầu bếp nổi tiếng</h3>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="food" id="food">
+
+      <div class="heading">
+         <span>món ăn bình dân</span>
+         <h3>món ăn ngon của chúng tôi</h3>
+      </div>
+
+      <div class="swiper food-slider">
+
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide" data-name="food-1">
+               <img src="images/food-img-1.png" alt="">
+               <h3>Sò Điệp</h3>
+               <div class="price">99K</div>
+            </div>
+
+            <div class="swiper-slide slide" data-name="food-2">
+               <img src="images/food-img-2.png" alt="">
+               <h3>Kim Chi Hàn Quốc</h3>
+               <div class="price">99K</div>
+            </div>
+
+            <div class="swiper-slide slide" data-name="food-3">
+               <img src="images/food-img-3.png" alt="">
+               <h3>Đùi Gà Sốt Thái</h3>
+               <div class="price">99K</div>
+            </div>
+
+            <div class="swiper-slide slide" data-name="food-4">
+               <img src="images/food-img-4.png" alt="">
+               <h3>Sashimi Cá Hồi</h3>
+               <div class="price">99K</div>
+            </div>
+
+            <div class="swiper-slide slide" data-name="food-5">
+               <img src="images/food-img-5.png" alt="">
+               <h3>Bò Bít Tết</h3>
+               <div class="price">99K</div>
+            </div>
+
+         </div>
+
+         <div class="swiper-pagination"></div>
+
+      </div>
+
+   </section>
+
+
+   <div class="menu-order" id="menu-order">
+      <h2>Thực Đơn</h2>
+   </div>
+   <div class="menu">
+      <div class="morning">
+         <h3 class="title">Bữa sáng</h3>
+         <div class="box-container">
+            <div class="box">
+               <div class="info">
+                  <h3>Pizza bò phô mai </h3>
+                  <p>Ngon, bổ, rẻ</p>
+               </div>
+               <div class="price"><span>99</span><sup>K</sup></div>
+               <div class="btn-add">Thêm</div>
+            </div>
+            <div class="box">
+               <div class="info">
+                  <h3>Bánh xíu mại </h3>
+                  <p>Ngon, bổ, rẻ</p>
+               </div>
+               <div class="price"><span>20</span><sup>K</sup></div>
+               <div class="btn-add">Thêm</div>
+            </div>
+            <div class="box">
+               <div class="info">
+                  <<h3>Bánh mì sanwich </h3>
+                     <p>Ngon, bổ, rẻ</p>
+               </div>
+               <div class="price"><span>20</span><sup>K</sup></div>
+               <div class="btn-add">Thêm</div>
+            </div>
+            <div class="box">
+               <div class="info">
+                  <h3>Bò bít tết </h3>
+                  <p>Ngon, bổ, rẻ</p>
+               </div>
+               <div class="price"><span>99</span><sup>K</sup></div>
+               <div class="btn-add">Thêm</div>
+            </div>
+            <div class="box">
+               <div class="info">
+                  <h3>Bánh mì hambuger </h3>
+                  <p>Ngon, bổ, rẻ</p>
+               </div>
+               <div class="price"><span>20</span><sup>K</sup></div>
+               <div class="btn-add">Thêm</div>
+            </div>
+            <div class="box">
+               <div class="info">
+                  <h3>Đùi gà sốt chua ngọt </h3>
+                  <p>Ngon, bổ, rẻ</p>
+               </div>
+               <div class="price"><span>99</span><sup>K</sup></div>
+               <div class="btn-add">Thêm</div>
+            </div>
+         </div>
+      </div>
+
+      <div class="afternoon">
+         <h3 class="title">Bữa trưa</h3>
+         <div class="box-container">
+            <div class="box">
+               <div class="info">
+                  <h3>Cơm Tấm</h3>
+                  <p>Ngon, bổ, rẻ</p>
+               </div>
+               <div class="price"><span>40</span><sup>K</sup></div>
+               <div class="btn-add">Thêm</div>
+            </div>
+            <div class="box">
+               <div class="info">
+                  <h3> cơm phần </h3>
+                  <p>Ngon, bổ, rẻ</p>
+               </div>
+               <div class="price"><span>40</span><sup>K</sup></div>
+               <div class="btn-add">Thêm</div>
+            </div>
+            <div class="box">
+               <div class="info">
+                  <h3>Cơm chiên đùi gà</h3>
+                  <p>Ngon, bổ, rẻ</p>
+               </div>
+               <div class="price"><span>40</span><sup>K</sup></div>
+               <div class="btn-add">Thêm</div>
+            </div>
+            <div class="box">
+               <div class="info">
+                  <h3>Cơm chiên hải sản</h3>
+                  <p>Ngon, bổ, rẻ</p>
+               </div>
+               <div class="price"><span>60</span><sup>K</sup></div>
+               <div class="btn-add">Thêm</div>
+            </div>
+         </div>
+      </div>
+
+      <div class="evening">
+         <h3 class="title">Bữa tối</h3>
+         <div class="box-container">
+            <div class="box">
+               <div class="info">
+                  <h3>Lẩu thái</h3>
+                  <p>hải sản tươi sống</p>
+               </div>
+               <div class="price"><span>99</span><sup>K</sup></div>
+               <div class="btn-add">Thêm</div>
+            </div>
+            <div class="box">
+               <div class="info">
+                  <h3>tôm sốt thái </h3>
+                  <p>hải sản tươi sống</p>
+               </div>
+               <div class="price"><span>99</span><sup>K</sup></div>
+               <div class="btn-add">Thêm</div>
+            </div>
+            <div class="box">
+               <div class="info">
+                  <h3>gà quay</h3>
+                  <p>thực phẩm tươi sống</p>
+               </div>
+               <div class="price"><span>99</span><sup>K</sup></div>
+               <div class="btn-add">Thêm</div>
+            </div>
+            <div class="box">
+               <div class="info">
+                  <h3>pizza </h3>
+                  <p>thực phẩm tươi ngon </p>
+               </div>
+               <div class="price"><span>99</span><sup>K</sup></div>
+               <div class="btn-add">Thêm</div>
+            </div>
+            <div class="box">
+               <div class="info">
+                  <h3>Mẹt gỏi cuốn</h3>
+                  <p>đồ ăn ngon </p>
+               </div>
+               <div class="price"><span>77</span><sup>K</sup></div>
+               <div class="btn-add">Thêm</div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+   <div class="menu" class="drink">
+      <h3 class="title">Đồ Uống </h3>
+      <div class="box-container">
+         <div class="box">
+            <div class="info">
+               <h3>Trà Vải</h3>
+               <p>Tươi mát, thơm ngon</p>
+            </div>
+            <div class="price"><span>20</span><sup>K</sup></div>
+            <div class="btn-add">Thêm</div>
+         </div>
+         <div class="box">
+            <div class="info">
+               <h3>Trà Đào</h3>
+               <p>Tươi mát, thơm ngon</p>
+            </div>
+            <div class="price"><span>20</span><sup>K</sup></div>
+            <div class="btn-add">Thêm</div>
+         </div>
+         <div class="box">
+            <div class="info">
+               <h3>Trà Đào Cam Xả</h3>
+               <p>Tươi mát, thơm ngon</p>
+            </div>
+            <div class="price"><span>20</span><sup>K</sup></div>
+            <div class="btn-add">Thêm</div>
+         </div>
+         <div class="box">
+            <div class="info">
+               <h3>Trà Trái cây</h3>
+               <p>Tươi mát, thơm ngon</p>
+            </div>
+            <div class="price"><span>20</span><sup>K</sup></div>
+            <div class="btn-add">Thêm</div>
+         </div>
+         <div class="box">
+            <div class="info">
+               <h3>Trà Sữa</h3>
+               <p>Tươi mát, thơm ngon</p>
+            </div>
+            <div class="price"><span>20</span><sup>K</sup></div>
+            <div class="btn-add">Thêm</div>
+         </div>
+         <div class="box">
+            <div class="info">
+               <h3>Hồng Trà</h3>
+               <p>Tươi mát, thơm ngon</p>
+            </div>
+            <div class="price"><span>20</span><sup>K</sup></div>
+            <div class="btn-add">Thêm</div>
+         </div>
+      </div>
+   </div>
+   </div>
+
+   <div class="menu" class="other">
+      <h3 class="title">Tráng miệng</h3>
+      <div class="box-container">
+         <div class="box">
+            <div class="info">
+               <h3>Yahua </h3>
+               <p>Thơm ngon.</p>
+            </div>
+            <div class="price"><span>30</span><sup>K</sup></div>
+            <div class="btn-add">Thêm</div>
+         </div>
+         <div class="box">
+            <div class="info">
+               <h3>Dưa hấu</h3>
+               <p>Tươi ngon.</p>
+            </div>
+            <div class="price"><span>30</span><sup>K</sup></div>
+            <div class="btn-add">Thêm</div>
+         </div>
+         <div class="box">
+            <div class="info">
+               <h3>Vải</h3>
+               <p>Tươi ngon.</p>
+            </div>
+            <div class="price"><span>30</span><sup>K</sup></div>
+            <div class="btn-add">Thêm</div>
+         </div>
+         <div class="box">
+            <div class="info">
+               <h3>Chuối</h3>
+               <p>Tươi ngon.</p>
+            </div>
+            <div class="price"><span>30</span><sup>K</sup></div>
+            <div class="btn-add">Thêm</div>
+         </div>
+      </div>
+   </div>
+
+
+
+   <section class="footer">
+
+      <div class="icons-container">
+
+         <div class="icons">
+            <i class="fas fa-clock"></i>
+            <h3>Thời gian mở cửa</h3>
+            <p>07:00am tới 10:00pm</p>
+         </div>
+
+         <div class="icons">
+            <i class="fas fa-phone"></i>
+            <h3>SĐT</h3>
+            <p>+123-456-7890</p>
+            <p>+111-222-3333</p>
+         </div>
+
+         <div class="icons">
+            <i class="fas fa-envelope"></i>
+            <h3>email</h3>
+            <p>tieucuong@gmail.com</p>
+            <p>manhtri@gmail.com</p>
+         </div>
+
+         <div class="icons">
+            <i class="fas fa-map"></i>
+            <h3>Địa chỉ</h3>
+            <p>567 Lê Duẩn</p>
+         </div>
+
+      </div>
+
+      <div class="share">
+         <a href="#" class="fab fa-facebook-f"></a>
+         <a href="#" class="fab fa-twitter"></a>
+         <a href="#" class="fab fa-instagram"></a>
+         <a href="#" class="fab fa-linkedin"></a>
+      </div>
+   </section>
+   <section class="cart">
+      <div id="close-cart" class="fas fa-times"></div>
+      <div class="cart-form">
+         <h2>Giỏ Hàng</h2>
+         <form action="">
+            <table>
+               <thead>
+                  <tr>
+                     <th>Sản Phẩm</th>
+                     <th>Giá</th>
+                     <th>SL</th>
+                     <th>Chọn</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <!-- <td><p>Tên</p></td>
+            <td><p><span>99</span><sup>K</sup></p></td>
+            <td><input style="width: 30px; outline: none" type="number" value="1" min="1"></td>
+            <td>Xóa</td> -->
+               </tbody>
+            </table>
+            <div class="price-total">
+               <p>Tổng Tiền: <span>0</span><sup>K</sup></p>
+            </div>
+            <a href="#" class="btn">Đặt Hàng</a>
+         </form>
+      </div>
+   </section>
+   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+   <script src="js/script.js"></script>
+   <script>
+      lightGallery(document.querySelector('.gallery .gallery-container'));
+   </script>
+</body>
+
+</html>
