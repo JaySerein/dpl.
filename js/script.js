@@ -70,10 +70,10 @@ var swiper = new Swiper(".food-slider", {
       slidesPerView: 1,
     },
     700: {
-      slidesPerView: 1,
+      slidesPerView: 2,
     },
     1000: {
-      slidesPerView: 1,
+      slidesPerView: 3,
     },
   },
 });
